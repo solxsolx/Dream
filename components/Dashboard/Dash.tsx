@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 
 function Dash() {
   return (
-    <div className="min-w-full min-h-screen">
-      <div className="pt-8 px-4 rounded-3xl bg-slate-100 min-w-full flex flex-col md:flex-row">
+    <div className="min-w-full min-h-screen bg-white md:p-4 p-2">
+      <div className="pt-8 px-4 rounded-3xl bg-slate-100 pb-4 min-w-full flex flex-col md:flex-row">
         <section className="md:w-3/4 flex flex-col items-center p-2 gap-4">
           <CardSection />
           <ProviderGrid />
